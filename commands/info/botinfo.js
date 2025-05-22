@@ -95,13 +95,6 @@ module.exports = {
       })
       .setTimestamp();
 
-    const sourceCodeButton = new ButtonBuilder()
-      .setLabel('Source Code')
-      .setURL('https://github.com/birajrai/lanya')
-      .setStyle(ButtonStyle.Link);
-
-    const row = new ActionRowBuilder().addComponents(sourceCodeButton);
-
     await interaction.reply({ embeds: [botInfoEmbed], components: [row] });
   },
 };
