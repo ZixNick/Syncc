@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: lanya
+    name: syncc
     env: node
     plan: free
     buildCommand: bun install
