@@ -95,6 +95,6 @@ module.exports = {
       })
       .setTimestamp();
 
-    await interaction.reply({ embeds: [botInfoEmbed], components: [row] });
+    await interaction.reply({ embeds: [botInfoEmbed] });
   },
 };
